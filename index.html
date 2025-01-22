@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Даша ЧирБелка</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #d65b02 10%, black 53%)
+        }
+        .circle-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid #ebab00;
+        }
+        .circle-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .user-name {
+            text-align: center;
+            color: black;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .social-links {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        a.btn {
+            position: relative;
+            align-items: center;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            text-shadow: 0 -1px 1px #cc5500;
+            user-select: none;
+            padding: .8em 6em;
+            outline: none;
+            border-radius: 1px;
+            background: linear-gradient(to left, rgba(0,0,0,.3), rgba(0,0,0,.0) 50%, rgba(0,0,0,.3)), linear-gradient(#d77d31, #fe8417, #d77d31);
+            background-size: 100% 100%, auto;
+            background-position: 50% 50%;
+            box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
+            transition: 0.2s;
+            display: flex; 
+            justify-content: center; 
+            }
+            a.btn:hover {
+            background-size: 140% 100%, auto;
+            }
+            a.btn:active {
+            top: 1px;
+            color: #ffdead;
+            box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, 0 10px 10px -9px #000;
+            }
+    </style>
+</head>
+<body>
+    <div class="circle-image">
+        <img src="https://sun9-79.userapi.com/impg/vwuYqsGX6GNJvftJ-Vz-lsFpc6bNTlyZjPtMgA/Q9BDxmfZVts.jpg?size=810x1080&quality=95&sign=78510aa8f1fa5f69a6b659a228846a84&type=album" alt="cheer">
+    </div>
+    <div class="user-name">
+        Даша ЧирБелка
+    </div>
+    <div class="social-links">
+        <p>    Мои социальные сети    </p>
+    </div>
+    <div class="buttons-container">
+        <a href="https://t.me/dashacheerbelka" class="btn">Телеграмм</a>
+        <a href="https://vk.com/dashacheerbelka" class="btn">ВКонтакте</a>
+        <a href="https://yappy.media/n/dashacheerbelka" class="btn">Yapyy</a>
+        <a href="https://dzen.ru/dashacheerbelka?share_to=link" class="btn">Дзен</a>
+        <a href="https://nuum.ru/channel/DashaCheerBelka" class="btn">Nuum</a>
+        <a href="https://l.likee.video/p/JcFsum" class="btn">Likee</a>
+        <a href="https://rutube.ru/channel/37662928" class="btn">Rutube</a>
+        
+    </div>
+</body>
+</html>
